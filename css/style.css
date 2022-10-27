@@ -1,0 +1,215 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+
+h2{
+    font-weight: 900;
+    padding: 60px 0px 30px;
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+    margin: 0px 0px 60px;
+}
+a{
+    margin: 15px;
+    text-decoration: none;
+}
+a img{
+    width: 300px;
+}
+a p{
+    font-size: 14px;
+} 
+p{
+
+    line-height: 200%;
+    color: #333;
+}
+p img{
+    width: 100%;
+}
+
+.flex{
+    display: flex;/*コレ*/
+}
+.flex div{
+    font-size:21px;
+    text-align: right;
+}
+.flexcen{
+    justify-content: center;
+}
+
+.main{
+    position: relative;
+}
+.main img{
+    width: 100%;
+}
+.main div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+.main div p{
+    color: #ffffff;
+}
+
+#sub{
+    font-size: 25px;
+    margin: 30px;
+}
+
+
+.inbl{
+    display: inline-block;
+
+}
+.center{
+    text-align: center;
+
+}
+.dr40{
+    margin: 0px 0px 40px;
+}
+.dr60{
+    margin:0px 0px 60px;
+}
+.dr80{
+    margin: 0px 0px 80px;
+}
+.v-mid{
+    display: inline-block;
+    vertical-align: middle;
+}
+.course-text{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px;
+}
+.glee{
+    background-color: #fafafa;
+}
+
+.yelow{
+    color: #ffd61a;
+}
+
+.more{
+    padding: 21px ;
+
+    color: #fafafa;
+    font-size: 18px;
+}
+.right{
+    text-align: right;
+
+}
+.left{
+    text-align:left;
+}
+.border{
+    display: inline-block;
+    padding: 8px;
+
+
+    border: solid;
+    border:1px solid #333
+
+}
+
+.name{
+
+    width: 240px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.input{
+    height: 36px;
+    width: 400px;
+    display: inline-block;
+
+    vertical-align: middle;
+}
+.f0{
+    border: solid;
+    border:1px solid #333;
+    border-left: 0;
+    border-right: 0;
+    width: 641px;
+    font-size: 0;
+    margin:0 auto;
+}
+.f0 p{
+    font-size: 16px;
+}
+.f0 div{
+    text-align: left;
+}
+.margin8{
+    margin: 8px;
+}
+#l64{
+    margin-right: 64px;
+}
+.bordl{    
+    border: solid;
+    border:0;
+    border-left: 1px solid #333;
+}
+.bordr{
+    border: solid;
+    border:0;
+    border-right: 1px solid #333;
+}
+#check{
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+}
+#check div{
+    margin: 12px 8px;
+    display: flex;
+}
+#detail{
+
+    width: 400px;
+    display: inline-block;
+    border: solid;
+    border:0;
+    border-left: 1px solid #333;
+    vertical-align: middle;
+}
+nav{
+    font-size: 0;
+}
+nav a{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 21px;
+    margin: 25px;
+}
+
+.bc-yellow{
+   width: 300px;
+   height: 60px; 
+   margin:auto;
+   background-color: #ffd61a;
+}
+label p{
+    line-height: 100%;
+}
+#last{
+    padding: 30px;
+    background-color: #707070;
+}
+.b30 p{
+    margin: 15px;
+}
